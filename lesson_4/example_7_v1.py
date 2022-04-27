@@ -34,6 +34,7 @@ if get_list:
         if val_list != None:
             num_list.append(val_list)
 else:
-    print(f"Факториал числа _{n}_ ==> {n}")
+    print(f"Факториал числа _{n}_ ==> {n+1}")
+    exit()
 
 print(f"Факториал числа {n}! = {str(num_list).rstrip(']').lstrip('[').replace(',','*').replace(' ','').rpartition('*')[0]} = {val_list}")
